@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: "Baloo Bhaina 2", sans-serif;
+    line-height: 1.6;
+    
+    
+}
+header{
+    background-color: #0B2B51;
+    color: teal;
+    padding: 20px;
+    text-align: center;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.main-content{
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+#main-nav{
+    margin: 20px;
+    padding-left: 10px;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(124, 7, 157);
+    font-weight: bold;
+}
+.container a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black .5px;
+    width: 100%;
+    margin: auto;
+    border-bottom: none;
+}
+article:nth-child(odd){
+    background-color: #0B2B51;
+    color: white;
+}
+article:nth-child(even){
+    color: #0B2B51;
+}
+.article-two{
+    color: #0B2B51;
+}
+h2 + p{
+    font-style: italic;
+    color: rgb(220, 113, 113);
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 1.5em;
+    padding-left: 0;
+    list-style-position: inside;
+}
+aside > ul{
+    color: #023143;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.side-head{
+    color: #0B2B51;
+}
+footer{
+    clear: both;
+    background-color: #0B2B51;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
